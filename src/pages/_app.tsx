@@ -15,7 +15,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <Header />
 
-      <Component {...pageProps} />
+      <main>
+        <Component {...pageProps} />
+      </main>
 
       <footer>
         <p>(C) 2023 WWW.AZURE.ICU All rights reserved.</p>
