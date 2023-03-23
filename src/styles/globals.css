@@ -3,6 +3,18 @@
   --foreground: #000;
 }
 
+html {
+  font-family: "Noto Sans CJK", "Noto Sans", "Yu Gothic", sans-serif;
+  font-feature-settings: "palt";
+
+  font-size: 20px;
+
+  max-width: 768px;
+  margin: 0 auto;
+
+  overflow-y: scroll;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #000;
