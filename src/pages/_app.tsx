@@ -1,9 +1,8 @@
-import Header from "@/components/Header";
-import Menu from "@/components/Menu";
-import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Link from "next/dist/client/link";
 import Head from "next/head";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -19,9 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
 
-      <footer>
-        <p>(C) 2023 WWW.AZURE.ICU All rights reserved.</p>
-      </footer>
+      <Footer />
     </>
   );
 }
