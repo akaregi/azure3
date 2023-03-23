@@ -1,0 +1,14 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr minmax(0, 4fr);
+
+  margin: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-areas: "left" "right";
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

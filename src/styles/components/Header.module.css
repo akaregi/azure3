@@ -2,6 +2,12 @@
   margin: 2rem 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}
+
 .site_title {
   margin: 0;
 }
