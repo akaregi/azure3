@@ -1,5 +1,7 @@
 .header {
   margin: 2rem 0;
+
+  color: var(--accent);
 }
 
 @media screen and (max-width: 768px) {

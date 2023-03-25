@@ -1,14 +1,20 @@
 :root {
-  --background: #f6f6f6;
-  --foreground: #38363d;
-  --link: #5f53ff;
+  --background: #fff;
+  --text: #252a34;
+  --accent: #bbc2ce;
+  --link: #2835e6;
+
+  --font-size: 20px;
+  --margin: 10%;
+  --indent: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #171619;
-    --foreground: #f1f1f1;
-    --link: #6fc9e9;
+    --background: #252a34;
+    --text: #e7eef3;
+    --accent: #939ca3;
+    --link: #08d9d6;
   }
 
   html {
@@ -16,19 +22,68 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  :root {
+    --font-size: 18px;
+    --margin: 5px;
+    --indent: 0rem;
+  }
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "JetBrains Mono", "Zen Kaku Gothic New";
   font-feature-settings: "palt";
 
-  font-size: 20px;
+  font-size: var(--font-size);
 
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 1024px;
+  margin: 0 var(--margin);
 
   overflow-y: scroll;
 
   background-color: var(--background);
-  color: var(--foreground);
+  color: var(--text);
+}
+
+body {
+  margin: 0;
+}
+
+main p,
+main ul {
+  margin-left: var(--indent);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h2::before,
+h3::before {
+  color: var(--accent);
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3::before {
+  content: "### ";
 }
 
 a {

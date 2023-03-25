@@ -1,5 +1,7 @@
 .menu_title {
   margin: 2rem 0;
+
+  color: var(--accent);
 }
 
 .menu_items {
@@ -15,4 +17,12 @@
 
 .menu_item {
   text-decoration: none;
+}
+
+.menu_item a {
+  color: var(--accent);
+}
+
+.menu_item a::before {
+  content: "/";
 }
