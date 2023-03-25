@@ -1,5 +1,5 @@
 import Head from "next/head";
-import WorksContent from "@/docs/Works.mdx";
+import WorksContent from "@/docs/Works.md";
 
 export default function Works() {
   return (
