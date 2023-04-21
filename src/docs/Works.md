@@ -5,11 +5,6 @@
 - The Red Vault …… 資料の保管用
 - Indarin Paria（後述）
 
-### The Red Council (TRC)
-
-「[The Red Council](https://council.azure.icu/)」は私が構築・運用する Misskey サーバーです。
-現在（いわゆる）「お一人用」サーバーであり、他の方の参入は受け付けておりません。
-
 ### Indarin Paria (IP)
 
 「インダリン・パリア（Indarin Paria）」（旧: raipara-rei ryky）と呼ばれる特別計画が進行中です。
