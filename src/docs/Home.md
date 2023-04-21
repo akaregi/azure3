@@ -6,7 +6,7 @@
 
 連絡が必要であれば、以下の経路からご一報ください。通じなければ諦めてください。
 
-- Twitter。「`@nanigashi_777`」か「`@akgmoegi`」までどうぞ。
+- Twitter。「`@nanigashi_777`」までどうぞ。
 - Discord。「あかれぎ#3863」で検索してみてください。
 - メール。「`verdigris(at)azure.icu`」で届くはずです。
 
